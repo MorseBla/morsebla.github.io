@@ -1,6 +1,4 @@
 import PROFILE_PIC from "../assets/About/myPicture.png";
-import dcImg from "../assets/About/dc.jpeg";
-import Container from "react-bootstrap/Container";
 import { Fade } from "react-bootstrap";
 import ProjectCarousel from "./ProjectCarousel";
 import { travelImages } from "./data";

@@ -15,7 +15,7 @@ export default function Navigation({ selectedItem, setSelectedItem }) {
       collapseOnSelect
     >
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="/">
           <p className="h1 fw-bold mb-0 ">Blake Morse</p>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -27,7 +27,7 @@ export default function Navigation({ selectedItem, setSelectedItem }) {
                   selectedItem === "about" ? "active" : undefined,
                   " text-end w-lg-25 ms-auto ",
                 ]}
-                href="#home"
+                href=""
               >
                 <p className="h4 mb-0">About</p>
               </Nav.Link>
@@ -38,7 +38,7 @@ export default function Navigation({ selectedItem, setSelectedItem }) {
                   selectedItem === "projects" ? "active" : undefined,
                   " text-end w-lg-25 ms-auto ",
                 ]}
-                href="#link"
+                href=""
               >
                 <p className="h4 mb-0">Projects</p>
               </Nav.Link>
