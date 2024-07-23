@@ -1,0 +1,8 @@
+.fullscreen-img {
+  height: 100vh;
+}
+
+.sticky-nav {
+  position: sticky;
+  top: 0;
+}

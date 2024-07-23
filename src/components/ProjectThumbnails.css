@@ -1,0 +1,33 @@
+.project-margin-top {
+  margin-top: 12vh;
+  display: flex;
+  justify-content: center;
+}
+.thumbnails {
+  width: 12vw;
+  height: 12vw;
+  min-width: 75px;
+  min-height: 75px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+
+/*doesnt work*/
+.thumbnails img[data-selected="true"] {
+  border: 1px solid #000000;
+  width: 100px;
+  height: 100px;
+}
+.tzoom {
+  transition: transform 0.3s;
+}
+.tzoom:hover {
+  transform: scale(1.05);
+}
+
+.thumbnail-perma-zoom {
+  transform: scale(1.05);
+  border-color: white;
+}
