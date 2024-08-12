@@ -75,7 +75,7 @@ export default function Skills({ isClicked, isVisible, handleFade }) {
                     <h5>Fuji Aimex III Pick and Place</h5>
                   </li>
                   <li>
-                    <h5>Fuji Aimex III Pick and Place</h5>
+                    <h5>Heller Mk1505 Reflow Oven</h5>
                   </li>
                   <li>
                     <h5>Drone Piloting</h5>
