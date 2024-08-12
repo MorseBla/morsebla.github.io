@@ -9,13 +9,7 @@ export default function Skills({ isClicked, isVisible, handleFade }) {
     <div className="">
       <Fade in={isClicked} onExited={handleExit}>
         <div id="top" className={isVisible ? null : "d-none"}>
-          <div className="about-margin-top text-light mb-3">
-            <h5>
-              Comprehensive Hardware and Software Expertise from Ohio State and
-              Industry Experience
-            </h5>
-          </div>
-          <div className=" row ">
+          <div className=" row about-margin-top text-light">
             <img
               className=" img-fluid centered-content col-lg-6 "
               src={working}
