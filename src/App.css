@@ -16,3 +16,11 @@ img {
 .test {
   padding-top: 0;
 }
+
+.bt {
+  border-top: 2px solid #fff;
+}
+
+.bb {
+  border-bottom: 2px solid #fff;
+}

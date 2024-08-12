@@ -72,15 +72,18 @@ export default function Projects({ isClicked, isVisible, handleFade }) {
             displayNext={(p) => handleTumbnails(p)}
             className=""
           />
+          <div className="container mb-3">
+            {" "}
+            <div className="bb"></div>
+          </div>
           <h2 className="title text-light">
             {array.filter((item) => item.key === proj)[0].title}
           </h2>
           <ProjectCarousel
             images={array.filter((item) => item.key === proj)[0].im}
           />
-
           <div className="mt-3 row">
-            <p className="text-light col-lg-6">
+            <p className="text-light col-lg-6 mt-3">
               {array.filter((item) => item.key === proj)[0].text}
             </p>
             <div className="col-lg-6">

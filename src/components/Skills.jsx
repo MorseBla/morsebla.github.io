@@ -1,9 +1,5 @@
-import PROFILE_PIC from "../assets/About/myPicture.png";
 import { Fade } from "react-bootstrap";
-import ProjectCarousel from "./ProjectCarousel";
-import { travelImages } from "./data";
 import working from "../assets/About/working.jpg";
-import "./Skills.css";
 
 export default function Skills({ isClicked, isVisible, handleFade }) {
   function handleExit() {
