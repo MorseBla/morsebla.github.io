@@ -23,6 +23,7 @@ export default function Navigation({ selectedItem, setSelectedItem }) {
           <Nav className="ms-auto">
             <div onClick={() => handleClick("about")}>
               <Nav.Link
+                eventKey="1"
                 className={[
                   selectedItem === "about" ? "active" : undefined,
                   " text-end w-lg-25 ms-auto ",
@@ -32,8 +33,21 @@ export default function Navigation({ selectedItem, setSelectedItem }) {
                 <p className="h4 mb-0">About</p>
               </Nav.Link>
             </div>
+            <div onClick={() => handleClick("skills")}>
+              <Nav.Link
+                eventKey="2"
+                className={[
+                  selectedItem === "skills" ? "active" : undefined,
+                  " text-end w-lg-25 ms-auto ",
+                ]}
+                href=""
+              >
+                <p className="h4 mb-0">Skills</p>
+              </Nav.Link>
+            </div>
             <div onClick={() => handleClick("projects")}>
               <Nav.Link
+                eventKey="3"
                 className={[
                   selectedItem === "projects" ? "active" : undefined,
                   " text-end w-lg-25 ms-auto ",
@@ -45,7 +59,7 @@ export default function Navigation({ selectedItem, setSelectedItem }) {
             </div>
             <NavDropdown
               align="end"
-              title="More"
+              title="Links"
               id="basic-nav-dropdown"
               className="text-end text-lg-start w-lg-25 ms-auto h4 mb-0"
             >

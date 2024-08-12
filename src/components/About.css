@@ -1,8 +1,20 @@
-.fullscreen-img {
+.about-margin-top {
+  margin-top: 12vh;
+}
+
+.pic {
+  max-height: 75vh;
+}
+
+/*.fullscreen-img {
   height: 100vh;
 }
 
 .sticky-nav {
   position: sticky;
   top: 0;
+}*/
+
+.bt {
+  border-top: 2px solid #fff;
 }

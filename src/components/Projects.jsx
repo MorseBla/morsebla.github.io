@@ -64,7 +64,7 @@ export default function Projects({ isClicked, isVisible, handleFade }) {
     setProj(p);
   }
   return (
-    <div>
+    <div className="mb-5">
       <Fade in={isClicked} onExited={handleExit}>
         <div id="top" className={isVisible ? null : "d-none"}>
           <ProjectThumbnails
