@@ -18,10 +18,10 @@ export default function Skills({ isClicked, isVisible, handleFade }) {
             <div className="text-light col-lg-6 mt-3">
               <h4>Hardware</h4>
               <p className="bt">
-                <br />I have experience in digital logic, signals and systems,
-                and PCB design, including testing and validation. Additionally,
-                I have soldering experience with surface mount production lines
-                using Fuji and Heller equipment.
+                <br />I have experience in digital logic, computer architecture,
+		signals and systems, and PCB design, including testing and 
+		validation. Additionally, I have soldering experience with 
+		surface mount production lines using Fuji and Heller equipment.
                 <br />
                 <br />
               </p>
@@ -41,10 +41,8 @@ export default function Skills({ isClicked, isVisible, handleFade }) {
               <p className="bt">
                 <br />
                 My passions include machine learning, robotics, cybersecurity,
-                chip design, PCB design, full-stack development, low-level
-                programming, embedded systems, data analysis and visualization,
-                network security, firmware development, hardware-software
-                integration, IoT, and algorithm design.
+                computer architecture, full-stack development, embedded systems,
+		firmware development, and high performance computing.
               </p>
             </div>
           </div>
@@ -53,9 +51,6 @@ export default function Skills({ isClicked, isVisible, handleFade }) {
             <div className="bt ">
               <ul className="row ">
                 <div className="col-lg-4 mt-3 ">
-                  <li className="">
-                    <h5>PCD Design (Altium)</h5>
-                  </li>
                   <li>
                     <h5>Soldering</h5>
                   </li>
@@ -76,9 +71,6 @@ export default function Skills({ isClicked, isVisible, handleFade }) {
                   </li>
                   <li>
                     <h5>Heller Mk1505 Reflow Oven</h5>
-                  </li>
-                  <li>
-                    <h5>Drone Piloting</h5>
                   </li>
                 </div>
                 <div className="col-lg-4 mt-3">
@@ -112,6 +104,12 @@ export default function Skills({ isClicked, isVisible, handleFade }) {
                 </div>
                 <div className="col-lg-4 mt-3">
                   <li>
+                    <h5>VHDL</h5>
+                  </li>
+                  <li>
+                    <h5>Computer Architecture</h5>
+                  </li>
+                  <li>
                     <h5>Signal Processing</h5>
                   </li>
                   <li>
@@ -125,6 +123,9 @@ export default function Skills({ isClicked, isVisible, handleFade }) {
                   </li>
                   <li>
                     <h5>Embedded Systems Development</h5>
+                  </li>
+                  <li>
+                    <h5>High Performance Computing</h5>
                   </li>
                 </div>
               </ul>
