@@ -1,4 +1,4 @@
-import PROFILE_PIC from "../assets/About/myPicture.png";
+import PROFILE_PIC from "../assets/About/myPicture.jpg";
 import { Fade } from "react-bootstrap";
 import ProjectCarousel from "./ProjectCarousel";
 import { travelImages } from "./data";

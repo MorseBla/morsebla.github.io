@@ -3,6 +3,21 @@
   display: flex;
   justify-content: center;
 }
+.flex-container {
+  display: flex;
+  flex-direction: column;  /* Stack the rows vertically */
+}
+
+.flex-row {
+  display: flex;
+  /*gap: 10px; /* Add space between items */
+  justify-content: center;
+}
+.senter {
+  display: flex;
+  justify-content: center;
+
+}
 .thumbnails {
   width: 12vw;
   height: 12vw;
