@@ -4,7 +4,7 @@ import "./ProjectCarousel.css";
 export default function ProjectCarousel({ images }) {
   const array = images.map((image, index) => (
     <Carousel.Item key={index}>
-      <img src={image} className=" img-fluid rounded"></img>
+      <img src={image} className=" img-fluid rounded" alt=""></img>
     </Carousel.Item>
   ));
   return (
