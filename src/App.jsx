@@ -2,7 +2,7 @@ import { useState } from "react";
 import Navigation from "./components/Navigation.jsx";
 import About from "./components/About.jsx";
 import Projects from "./components/Projects.jsx";
-import Skills from "./components/Skills.jsx";
+//import Skills from "./components/Skills.jsx";
 
 import "./App.css";
 
@@ -36,11 +36,11 @@ function App() {
         isVisible={visible === "about"} //after fully exited, this needs to turn false
         handleFade={(s) => handleExit(s)} //called when fade is done
       />
-      <Skills
-        isClicked={fade === "skills"} //starts fade
-        isVisible={visible === "skills"} //after fully exited, this needs to turn false
-        handleFade={(s) => handleExit(s)} //called when fade is done
-      />
+      //<Skills
+      //  isClicked={fade === "skills"} //starts fade
+      //  isVisible={visible === "skills"} //after fully exited, this needs to turn false
+      //  handleFade={(s) => handleExit(s)} //called when fade is done
+      ///>
       <Projects
         isClicked={fade === "projects"} //starts fade
         isVisible={visible === "projects"} //after fully exited, this needs to turn false
