@@ -33,6 +33,7 @@ export default function Navigation({ selectedItem, setSelectedItem }) {
                 <p className="h4 mb-0">About</p>
               </Nav.Link>
             </div>
+            {/* 
             <div onClick={() => handleClick("skills")}>
               <Nav.Link
                 eventKey="2"
@@ -45,6 +46,7 @@ export default function Navigation({ selectedItem, setSelectedItem }) {
                 <p className="h4 mb-0">Skills</p>
               </Nav.Link>
             </div>
+            */}
             <div onClick={() => handleClick("projects")}>
               <Nav.Link
                 eventKey="3"
